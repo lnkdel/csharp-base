@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-base", "csharp-base\csharp-base.csproj", "{1FA3E9FC-2A0A-4880-89EA-92A24757B970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{82A63A97-2700-4648-A903-D848F3E8F24E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure", "DataStructure\DataStructure.csproj", "{29F3A448-A727-48C8-87C5-9E944FECE8AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FA3E9FC-2A0A-4880-89EA-92A24757B970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA3E9FC-2A0A-4880-89EA-92A24757B970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA3E9FC-2A0A-4880-89EA-92A24757B970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA3E9FC-2A0A-4880-89EA-92A24757B970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82A63A97-2700-4648-A903-D848F3E8F24E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A63A97-2700-4648-A903-D848F3E8F24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A63A97-2700-4648-A903-D848F3E8F24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A63A97-2700-4648-A903-D848F3E8F24E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F3A448-A727-48C8-87C5-9E944FECE8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F3A448-A727-48C8-87C5-9E944FECE8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F3A448-A727-48C8-87C5-9E944FECE8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F3A448-A727-48C8-87C5-9E944FECE8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
