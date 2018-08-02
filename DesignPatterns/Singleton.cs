@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace DesignPatterns
+﻿namespace DesignPatterns
 {
     // 懒汉 类加载时不初始化
     // 饿汉 类加载时完成初始化
