@@ -30,5 +30,28 @@ namespace DataStructure
                 return GetSequence(count - 1) + GetSequence(count - 2);
 
         }
+
+        /// <summary>
+        /// 面试推荐方法
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public static long GetSeq(int n)
+        {
+            int[] result = new int[] { 0, 1 };
+            if (n < 2)
+                return result[n];
+
+            long fibNMinusOne = 1;
+            long fibNminusTwo = 0;
+            long fibN = 0;
+            for(int i = 2; i <= n; ++i)
+            {
+                fibN = fibNMinusOne + fibNminusTwo;
+                fibNminusTwo = fibNMinusOne;
+                fibNMinusOne = fibN;
+            }
+            return fibN;
+        }
     }
 }

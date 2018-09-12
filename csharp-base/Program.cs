@@ -9,6 +9,10 @@ namespace csharp_base
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("斐波拉契数列，第10位");
+            Console.WriteLine(Fibonacci.GetSeq(10));
+            //Console.ReadKey();
+
             CStack.Output();
             CArray.Output();
 
