@@ -44,8 +44,10 @@
     <Compile Include="CQueue.cs" />
     <Compile Include="CStack.cs" />
     <Compile Include="Fibonacci.cs" />
+    <Compile Include="ArrayProblem.cs" />
     <Compile Include="ScoreArray.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringProblem.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -9,6 +9,34 @@ namespace csharp_base
     {
         static void Main(string[] args)
         {
+            int[] arr = new int[] { 1, 1, 2 };
+            int res = ArrayProblem.Duplicate1(ref arr);
+            MyWrite(arr);
+
+            string s = "loveleetcode";
+            Console.WriteLine(StringProblem.FirstUniqChar(s));
+
+            Console.ReadKey();
+            int oriInt = 123;
+            Console.WriteLine(StringProblem.RevertInt(oriInt));
+            Console.ReadKey();
+
+            var revert = StringProblem.RevertString("hi, i am lucy.");
+            Console.WriteLine(revert);
+            Console.Read();
+
+            var resArr = ArrayProblem.TwoSum(new int[] { 2, 7, 11, 15 }, 18);
+            MyWrite(resArr);
+
+            //int[] arr = new int[] { 1, 1, 2 };
+            //int res = ArrayProblem.Duplicate(ref arr);
+            //for(int i = 0; i < res; ++i)
+            //{
+            //    Console.WriteLine(arr[i]);
+            //}
+
+            Console.ReadKey();
+
             Console.WriteLine("斐波拉契数列，第10位");
             Console.WriteLine(Fibonacci.GetSeq(10));
             //Console.ReadKey();
@@ -45,6 +73,15 @@ namespace csharp_base
 
             Console.WriteLine(".....................");
             FactoryDemo();
+            Console.ReadKey();
+        }
+
+        static void MyWrite(int[] arr)
+        {
+            for (int i = 0; i < arr.Length; ++i)
+            {
+                Console.WriteLine(arr[i]);
+            }
             Console.ReadKey();
         }
 
